@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f1f3f6;
+}
+
+/* Hide scrollbar arrows look cleaner on number input (price filter) */
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
